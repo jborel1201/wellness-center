@@ -1,0 +1,81 @@
+:root {
+  /* COLORS */
+  --primary: #bb987d;
+  --secondary: #f09600;
+  --dark-orange: #df8d00;
+  --success: #28b73e;
+  --error: #f44336;
+  --black: #000;
+  --white: #fff;
+  --text-primary: #444;
+  --text-dark: #444;
+  --text-hint: rgba(0, 0, 0, 0.38);
+  --link: #005282;
+  --link-hover: #f4f2ed;
+  --icon: #181818;
+  --box-shadow-elevation-1: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  /* FONT-WEIGHTS */
+  --font-weight-xs-light: 100;
+  --font-weight-s-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* WIDTHS */
+  --drawer-mobile-width-max: 425px;
+  --drawer-desktop-width: 260px;
+  --catalog-desktop-width-max: 1150px;
+  --max-width-news-carousel-card: 380px;
+
+  /* HEIGHTS */
+  --height-app-bar-mobile: 60px;
+  --height-app-bar-desktop: 102px;
+  --height-header-hero-desktop: 260px;
+  --height-article-card-media-dense: 150px;
+  --height-news-carousel-card-media-desktop: 215px;
+  --height-news-carousel-card-media-mobile: 150px;
+
+  /* SIZES */
+  --size-icon-drawer-entry: 32px;
+
+  /* MARGINS */
+  --margin-left-page-content: 7%;
+  --margin-right-page-content: 7%;
+  --margin-left-icon-drawer-entry: 25px;
+  --margin-right-icon-drawer-entry: 12px;
+
+  /* BREAKPOINTS */
+  --breakpoint-extra-small: 0;
+  --breakpoint-very-small: 400px;
+  --breakpoint-small: 600px;
+  --breakpoint-small-medium: 760px;
+  --breakpoint-medium: 960px;
+  --breakpoint-medium-large: 1200px;
+  --breakpoint-large: 1440px;
+  --breakpoint-extra-large: 1920px;
+
+  /* Z-INDEXES */
+  --z-index-mobile-stepper: 1000;
+  --z-index-speed-dial: 1050;
+  --z-index-app-bar: 1100;
+  --z-index-drawer: 1200;
+  --z-index-modal: 1300;
+  --z-index-snackbar: 1400;
+  --z-index-tooltip: 1500;
+  --z-index-cookies-dialog: 2000;
+
+  /* BORDER_RADII */
+  --border-radius-shape: 15px;
+
+  /* DURATIONS */
+  --duration-shortest: 150ms;
+  --duration-shorter: 200ms;
+  --duration-short: 250ms;
+  --duration-standard: 300ms;
+  --duration-complex: 375ms;
+  --duration-entering-screen: 225ms;
+  --duration-leaving-screen: 195ms;
+  --duration-long: 1000ms;
+}

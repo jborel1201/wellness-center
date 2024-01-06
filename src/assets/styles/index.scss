@@ -1,0 +1,40 @@
+@use "./variables";
+@use "./utils";
+@use "./base";
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh; 
+
+  @media (max-width: 960px) {
+    margin-top: var(--height-app-bar-mobile);
+    min-height: calc(100vh - var(--height-app-bar-mobile));
+  }
+  
+  @media (min-width: 961px) {
+    flex: 1;
+    min-height: 0;
+  }
+}
+
+.single-btn-container {
+  display: flex;
+  &.btn-right {
+    justify-content: end;
+  }
+  @media (max-width: 960px) {
+    &.btn-right {
+      justify-content: center;
+      button {
+        width: 80%
+      }
+    }
+  }
+}
+
+.alignCenter {
+  text-align: center;
+}
