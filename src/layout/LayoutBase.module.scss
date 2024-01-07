@@ -1,18 +1,5 @@
 .container {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  width: 100%;
-}
-
-.contentContainer {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  min-height: 0;
-  min-width: 0;
-
-  @media (min-width: 959px) {
-    height: 100vh;
-  }
+  display: grid;
+  grid-template-rows: 160px 1fr 90px;
+  min-height: 100vh; 
 }
