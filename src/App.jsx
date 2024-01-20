@@ -3,7 +3,11 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 
 import Home from "#pages/Home";
 import Financing from "#pages/Financing";
-import LegalNotice from "#pages/LegalNotice";
+import LegalNotice from "#pages/regulatory/LegalNotice";
+import TermsOfSales from "#pages/regulatory/TermsOfSales";
+import PrivacyPolicy from "#pages/regulatory/PrivacyPolicy";
+import Cookies from "#pages/regulatory/Cookies";
+import OurValues from "#pages/OurValues";
 //Hooks
 import useIsDesktop from './hooks/useInDesktop'
 //Components
@@ -26,9 +30,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/financements" element={<Financing />} />
           <Route path="/mentions-legales" element={<LegalNotice />} />
-          <Route path="/politique-en-matiere-de-cookies" element={<Financing />} />
-          <Route path="/politique-de-confidentialite" element={<Financing />} />
-          <Route path="/conditions-d-utilisation" element={<Financing />} />
+          <Route path="/politique-en-matiere-de-cookies" element={<Cookies />} />
+          <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />
+          <Route path="/conditions-d-utilisation" element={<TermsOfSales />} />
+          <Route path="/nos-valeurs" element={<OurValues />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </LayoutBase>

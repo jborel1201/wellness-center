@@ -5,6 +5,7 @@ import poleEmploiPath from '../assets/images/pole-emploi.webp';
 import fafceaPath from '../assets/images/fafcea.webp';
 import fourxPath from '../assets/images/4x.png';
 import qualiopiPath from '../assets/images/qualiopi.png';
+import valuePath from '../assets/images/value.webp';
 
 export {
   wellnessCenterPath,
@@ -13,5 +14,6 @@ export {
   poleEmploiPath,
   fafceaPath,
   fourxPath,
-  qualiopiPath
+  qualiopiPath,
+  valuePath
 }

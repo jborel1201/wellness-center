@@ -32,7 +32,7 @@ const CHOICES = [
 
 const Financing = () => {
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <header>
         <h2>Financements</h2>
         <h3>Obtenez un financement complet de votre formation</h3>
@@ -44,7 +44,7 @@ const Financing = () => {
         </div>
       </section>
       <section className={styles.sectionFinancing}>
-        <h3>Les différents mode de financements</h3>
+        <h3>Les différents modes de financements</h3>
         <div className={styles.financingContent}>
           {CHOICES.map(choice => (
             <div className={styles.card} key={choice.id} style={{ backgroundColor: choice.color }}>

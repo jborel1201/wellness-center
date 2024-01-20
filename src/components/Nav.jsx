@@ -11,7 +11,9 @@ const Nav = () => {
       <div className={styles.socialIcons}>
       </div>
       <div className={styles.logo}>
-        <img src={wellnessCenterPath} alt="logo" />
+        <Link to='/home'>
+          <img src={wellnessCenterPath} alt="logo" />
+        </Link>
       </div>
       <div className={styles.links}>
         <div className={styles.dropdownContainer}>
@@ -29,13 +31,7 @@ const Nav = () => {
           <Link to='/financements'>Financements</Link>
         </div>
         <div className={styles.dropdownContainer}>
-          <a href="#">Nos valeurs</a>
-        </div>
-        <div className={styles.dropdownContainer}>
-          <a href="#">Tarifs</a>
-        </div>
-        <div className={styles.dropdownContainer}>
-          <a href="#">Plus</a>
+          <Link to='/nos-valeurs'>Nos valeurs</Link>
         </div>
       </div>
     </nav>

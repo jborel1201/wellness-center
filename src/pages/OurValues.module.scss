@@ -1,0 +1,42 @@
+.banner {
+  background-color: var(--bg-banner);
+  color: var(--black);
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+  h3 {
+    font-size: 3.6rem;
+    font-weight: var(--font-weight-light);
+    color: var(--black);
+    text-align: center;
+  }
+}
+
+.values {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.valueCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 40rem;
+  text-align: center;
+  border: 1px solid var(--secondary);
+  border-radius: 15px;
+  .img {
+    width: 7rem;
+    margin-bottom: 2rem;
+  }
+  p{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
