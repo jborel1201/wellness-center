@@ -29,8 +29,7 @@
   padding: 2rem;
   width: 40rem;
   text-align: center;
-  border: 1px solid var(--secondary);
-  border-radius: 15px;
+  border: 1px solid var(--bg-banner);
   .img {
     width: 7rem;
     margin-bottom: 2rem;
@@ -40,3 +39,51 @@
     margin-bottom: 0.5rem;
   }
 }
+
+.plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem;
+  ul {
+    width: 40rem;
+    li {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .plusFirst {
+    align-self: flex-end;
+  }
+}
+
+.trainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.trainerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  border: 1px solid var(--primary);
+  .trainerCardHeader {
+    width: 100%;
+    background-color: var(--primary);
+    color: #FFF;
+    padding: 2rem;
+  }
+  .trainerInfo {
+    padding: 2rem;
+    p{
+      font-size: 1.5rem;
+      margin-bottom: 1.54rem;
+    }
+  }
+}
+
+
