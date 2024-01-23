@@ -17,7 +17,7 @@ const Nav = () => {
       </div>
       <div className={styles.links}>
         <div className={styles.dropdownContainer}>
-          <a href="#">Nos formations</a>
+          <Link to='/formations'>Nos formations</Link>
           <div className={styles.dropdownContent}>
             <div className={styles.dropdown}>
               <Link to='/formations/bloc_1'>Bloc 1 du CAP esthétique</Link>

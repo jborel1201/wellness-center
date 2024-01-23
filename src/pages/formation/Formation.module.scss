@@ -5,6 +5,14 @@
   margin: 0 25%;
 }
 
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 4rem 0rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -48,5 +56,141 @@
   }
   p {
     font-size: 1.5rem;
+  }
+}
+
+.figureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+  margin-top: 2rem;
+  gap: 2rem;
+  background-color: var(--primary);
+}
+
+.figure {
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--primary);
+}
+
+.card {
+  background-color: #FFF;
+  padding: 2rem;
+  text-align: center;
+  .cardContent {
+    padding-top: 2rem;
+    span {
+      font-weight: bold
+    }
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 25%;
+  .descriptionContent {
+    h3 {
+      text-align: center;
+      margin: 1rem;
+      color: var(--primary);
+    }
+    li,p{
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.jobContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.jobCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 4rem 4rem 4rem;
+  background-color: var(--primary);
+  .jobCardHeader {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 2rem;
+  }
+}
+
+.formationContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    margin: 2rem 0;
+  }
+}
+
+.formationInnerContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.formationCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 350px;
+  border: 1px solid var(--secondary);
+  .formationCardHeader {
+    border-bottom: 1px solid var(--secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    img {
+      margin-bottom: 2rem;
+    }
+    h4 {
+      font-family: 'Cinzel', serif;
+      margin-bottom: 2rem;
+    }
+  }
+  a {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 768px) {
+  .jobContainer {
+    flex-direction: column;
+  }
+  .formationInnerContainer {
+    flex-direction: column;
+  }
+  .description {
+    padding: 2rem;
   }
 }

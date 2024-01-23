@@ -11,6 +11,7 @@ import OurValues from "#pages/OurValues";
 import Bloc1 from "#pages/formation/Bloc1";
 import Bloc2 from "#pages/formation/Bloc2";
 import Bloc3 from "#pages/formation/Bloc3";
+import Formation from "#pages/formation/Formation";
 //Hooks
 import useIsDesktop from './hooks/useInDesktop'
 //Components
@@ -26,12 +27,12 @@ function App() {
       <LayoutBase isDesktop={isDesktop}>
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/formations" >
+          <Route path="/formations" element={<Formation />} >
             <Route path="/formations/bloc_1" element={<Bloc1 />} /> 
             <Route path="/formations/bloc_2" element={<Bloc2 />} /> 
             <Route path="/formations/bloc_3" element={<Bloc3 />} /> 
             <Route path="/formations/synthese" element={<Bloc1 />} /> 
-            <Route path="*" element={<Navigate to="/home" />} />
+            <Route path="*" element={<Navigate to="/formations" />} />
           </Route>
           <Route path="/" element={<Home />} />
           <Route path="/financements" element={<Financing />} />
