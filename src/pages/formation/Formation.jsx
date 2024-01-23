@@ -1,4 +1,11 @@
 import { Link } from 'react-router-dom'
+
+import {
+  visagePath,
+  nailsPath,
+  managePath
+} from '#images'
+
 import styles from './Formation.module.scss'
 
 const Formation = () => {
@@ -85,33 +92,33 @@ const Formation = () => {
         <div className={styles.formationInnerContainer}>
           <div className={styles.formationCard}>
             <div className={styles.formationCardHeader}>
-              <img src="https://via.placeholder.com/150" alt="formation" />
+              <img src={visagePath} alt="formation B1" />
               <h4>Bloc 1 du CAP Esthétique</h4>
             </div>
             <div className={styles.formationCardContent}>
-              <p>Le bloc 1 du CAP Esthétique est accessible à toutes personnes souhaitant se former au métier d’esthéticienne. Il permet d’acquérir les compétences nécessaires pour réaliser les soins du visage, les soins des mains et des pieds, les épilations, les maquillages et les techniques de vente.</p>
+              <p>Le bloc 1 vous permettra d'apprendre les différentes techniques esthétique du visage, des mains et des pieds ainsi que la biologie du corps humain.</p>
             </div>
-            <Link to='/mentions-legales'>Voir plus →</Link>
+            <Link to='/formation/bloc_1'>Voir plus →</Link>
           </div>
           <div className={styles.formationCard}>
             <div className={styles.formationCardHeader}>
-              <img src="https://via.placeholder.com/150" alt="formation" />
+              <img src={nailsPath} alt="formation B2" />
               <h4>Bloc 2 du CAP Esthétique</h4>
             </div>
             <div className={styles.formationCardContent}>
-              <p>Le bloc 1 du CAP Esthétique est accessible à toutes personnes souhaitant se former au métier d’esthéticienne. Il permet d’acquérir les compétences nécessaires pour réaliser les soins du visage, les soins des mains et des pieds, les épilations, les maquillages et les techniques de vente.</p>
+              <p>Le bloc 2 vous permettra d'assimiler les soins des ongles, leur biologie ainsi que l'épilation.</p>
             </div>
-            <Link to='/mentions-legales'>Voir plus →</Link>
+            <Link to='/formation/bloc_2'>Voir plus →</Link>
           </div>
           <div className={styles.formationCard}>
             <div className={styles.formationCardHeader}>
-              <img src="https://via.placeholder.com/150" alt="formation" />
+              <img src={managePath} alt="formation B3" />
               <h4>Bloc 3 du CAP Esthétique</h4>
             </div>
             <div className={styles.formationCardContent}>
-              <p>Le bloc 1 du CAP Esthétique est accessible à toutes personnes souhaitant se former au métier d’esthéticienne. Il permet d’acquérir les compétences nécessaires pour réaliser les soins du visage, les soins des mains et des pieds, les épilations, les maquillages et les techniques de vente.</p>
+              <p>Le bloc 3 permet d'apprendre la gestion d'un institut de beauté, son coté administratif. Vous assimilerez également  le parfum, son histoire et sa composition</p>
             </div>
-            <Link to='/mentions-legales'>Voir plus →</Link>
+            <Link to='/formation/bloc_3'>Voir plus →</Link>
           </div>
         </div>
       </div>

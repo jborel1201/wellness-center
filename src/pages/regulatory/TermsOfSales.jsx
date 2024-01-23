@@ -113,9 +113,6 @@ const TermsOfSales = () => {
         <p>Les présentes Conditions générales sont régies exclusivement par le droit français et compétence territoriale exclusive est donnée aux juridictions françaises.</p>
         <p>Le Client reconnaît expressément la force probante de l’écrit électronique tel qu’il est utilisé sur le site et reconnaît que les données enregistrées par FlexyCorp font foi et constituent la preuve de l’ensemble des transactions passées.</p>
         <p>En cas de litige survenant dans le cadre des prestations sans résolution directe avec WELLNESS CENTER ACADEMY , le Client aura la possibilité, avant toute action en justice, de rechercher une solution amiable, en saisissant un médiateur de la consommation, le cas échéant avec l’aide d’une association de consommateurs ou de tout autre conseil de son choix.</p>
-        <p>Tout consommateur qui rencontre un litige avec une entreprise située sur le territoire de l’Union a la possibilité de déposer une demande de médiation par le biais de cette plateforme européenne. Vous pouvez consulter également le site internet de la Commission européenne dédié à la médiation de la consommation :
-          http://ec.europa.eu/consumers/solving_consumer_disputes/non-judicial_redress/adr-odr/index_en.htm
-          Annexe : Formulaire de rétractation (exemple suggéré non obligatoire)</p>
         <p>Vous avez la possibilité de renoncer à ce contrat en nous écrivant, dans un délai de 14 jours comme indiqué à l’article 4 ci-dessus, par courrier à :</p>
         <p>
           WELLNESS CENTER ACADEMY<br />

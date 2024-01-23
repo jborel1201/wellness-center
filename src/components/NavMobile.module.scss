@@ -1,0 +1,56 @@
+.appBar {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.leftContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding-left: inherit;
+}
+
+.brandLogoContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  img {
+    height: 28px;
+    width: 100px;
+  }
+}
+
+.menuLogoContainer {
+  cursor: pointer;
+  img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 5rem;
+  left: 0;
+  padding: 1rem;
+  background-color: var(--primary);
+  color: #FFF;
+  width: 100%;
+  a {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .spacing {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;;
+    margin-left: 2rem;
+  }
+}
+

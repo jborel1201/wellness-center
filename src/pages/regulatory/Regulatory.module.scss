@@ -30,3 +30,11 @@
     }
   }
 }
+
+@media (max-width: 768px) { 
+  .container {
+    .info {
+      padding: 2rem;
+    }
+  }
+}

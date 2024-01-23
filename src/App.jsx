@@ -26,21 +26,18 @@ function App() {
     <Router>
       <LayoutBase isDesktop={isDesktop}>
         <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/formations" element={<Formation />} >
-            <Route path="/formations/bloc_1" element={<Bloc1 />} /> 
-            <Route path="/formations/bloc_2" element={<Bloc2 />} /> 
-            <Route path="/formations/bloc_3" element={<Bloc3 />} /> 
-            <Route path="/formations/synthese" element={<Bloc1 />} /> 
-            <Route path="*" element={<Navigate to="/formations" />} />
-          </Route>
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/formations" element={<Formation />} />
+          <Route path="/formation/bloc_1" element={<Bloc1 />} /> 
+          <Route path="/formation/bloc_2" element={<Bloc2 />} /> 
+          <Route path="/formation/bloc_3" element={<Bloc3 />} /> 
           <Route path="/financements" element={<Financing />} />
           <Route path="/mentions-legales" element={<LegalNotice />} />
           <Route path="/politique-en-matiere-de-cookies" element={<Cookies />} />
           <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />
           <Route path="/conditions-d-utilisation" element={<TermsOfSales />} />
-          <Route path="/nos-valeurs" element={<OurValues />} />
+          <Route path="/nos-valeurs" element={<OurValues isDesktop={isDesktop} />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </LayoutBase>

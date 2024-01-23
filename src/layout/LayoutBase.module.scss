@@ -7,6 +7,6 @@
 
 @media (max-width: 768px) {
   .container {
-    grid-template-rows: 160px 1fr auto;
+    grid-template-rows: auto 1fr auto;
   }
 }

@@ -1,8 +1,12 @@
+import React, { useEffect } from 'react'
 import FormationItemTitle from '#components/FormationItemTitle'
 
 import styles from './Formation.module.scss'
 
 const Bloc2 = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={styles.container}>
       <div className={styles.container}>

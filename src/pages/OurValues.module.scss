@@ -15,6 +15,24 @@
   }
 }
 
+.bannerMobile {
+  background-color: var(--bg-banner);
+  color: var(--black);
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  h3 {
+    font-size: 3rem;
+    font-weight: var(--font-weight-light);
+    color: var(--black);
+    text-align: center;
+  }
+}
+
 .values {
   display: flex;
   flex-direction: row;
@@ -82,6 +100,58 @@
     p{
       font-size: 1.5rem;
       margin-bottom: 1.54rem;
+    }
+  }
+}
+
+@media (max-width: 768px) { 
+  .banner {
+    h3 {
+      font-size: 3rem;
+    }
+  }
+  .values {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .valueCard {
+    padding: 2rem;
+    width: 100%;
+    p{
+      font-size: 1.6em;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .plus {
+    flex-direction: column;
+    padding: 2rem;
+    ul {
+      width: 100%;
+      margin-bottom: 0;
+      li {
+        font-size: 1.6rem;
+        line-height: 2rem;
+      }
+    }
+    .plusFirst {
+      align-self: flex-end;
+    }
+  }
+
+  .trainer {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .trainerCard {
+    width: 100%;
+    .trainerInfo {
+      p{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+      }
     }
   }
 }

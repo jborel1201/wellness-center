@@ -20,10 +20,9 @@ const Nav = () => {
           <Link to='/formations'>Nos formations</Link>
           <div className={styles.dropdownContent}>
             <div className={styles.dropdown}>
-              <Link to='/formations/bloc_1'>Bloc 1 du CAP esthétique</Link>
-              <Link to='/formations/bloc_2'>Bloc 2 du CAP esthétique</Link>
-              <Link to='/formations/bloc_3'>Bloc 3 du CAP esthétique</Link>
-              <Link to='/formations/bloc_1'>Synthèse</Link>
+              <Link to='/formation/bloc_1'>Bloc 1 du CAP esthétique</Link>
+              <Link to='/formation/bloc_2'>Bloc 2 du CAP esthétique</Link>
+              <Link to='/formation/bloc_3'>Bloc 3 du CAP esthétique</Link>
             </div>
           </div>
         </div>
