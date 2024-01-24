@@ -32,6 +32,9 @@ const Nav = () => {
         <div className={styles.dropdownContainer}>
           <Link to='/nos-valeurs'>Nos valeurs</Link>
         </div>
+        <div className={styles.dropdownContainer}>
+          <Link to='/contact'>Nous contacter</Link>
+        </div>
       </div>
     </nav>
   )

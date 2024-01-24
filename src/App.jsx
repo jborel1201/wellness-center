@@ -7,6 +7,7 @@ import LegalNotice from "#pages/regulatory/LegalNotice";
 import TermsOfSales from "#pages/regulatory/TermsOfSales";
 import PrivacyPolicy from "#pages/regulatory/PrivacyPolicy";
 import Cookies from "#pages/regulatory/Cookies";
+import Contact from "#pages/regulatory/Contact";
 import OurValues from "#pages/OurValues";
 import Bloc1 from "#pages/formation/Bloc1";
 import Bloc2 from "#pages/formation/Bloc2";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />
           <Route path="/conditions-d-utilisation" element={<TermsOfSales />} />
           <Route path="/nos-valeurs" element={<OurValues isDesktop={isDesktop} />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </LayoutBase>

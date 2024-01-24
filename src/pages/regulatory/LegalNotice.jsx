@@ -9,7 +9,7 @@ const LegalNotice = () => {
       <div className={styles.info}>
         <h5>WELLNESS CENTER ACADEMY</h5>
         <p>43 Rue Pierre Valette<br />
-          22 240 Malakoff</p>
+          92 240 Malakoff</p>
 
         <p>Téléphone : 07 88 19 90 82<br />
           Email: secretariat.wellnessformation@gmail.com</p>
