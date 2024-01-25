@@ -35,6 +35,9 @@ const Nav = () => {
         <div className={styles.dropdownContainer}>
           <Link to='/contact'>Nous contacter</Link>
         </div>
+        <div className={styles.dropdownContainer}>
+          <Link to='/plus'>Plus</Link>
+        </div>
       </div>
     </nav>
   )

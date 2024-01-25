@@ -13,6 +13,7 @@ import Bloc1 from "#pages/formation/Bloc1";
 import Bloc2 from "#pages/formation/Bloc2";
 import Bloc3 from "#pages/formation/Bloc3";
 import Formation from "#pages/formation/Formation";
+import Plus from "#pages/regulatory/Plus";
 //Hooks
 import useIsDesktop from './hooks/useInDesktop'
 //Components
@@ -40,6 +41,7 @@ function App() {
           <Route path="/conditions-d-utilisation" element={<TermsOfSales />} />
           <Route path="/nos-valeurs" element={<OurValues isDesktop={isDesktop} />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/plus" element={<Plus />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </LayoutBase>

@@ -30,6 +30,7 @@ const NavMobile = ({openMenu, isOpen}) => {
           <Link to='/financements'>Financements</Link>
           <Link to='/nos-valeurs'>Nos valeurs</Link>
           <Link to='/contact'>Nous contacter</Link>
+          <Link to='/plus'>Plus</Link>
         </div>
       )}
     </div>

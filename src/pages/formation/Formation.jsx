@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 import {
   visagePath,
   nailsPath,
-  managePath,
-  certPath
+  managePath
 } from '#images'
 
 import styles from './Formation.module.scss'
@@ -122,9 +121,6 @@ const Formation = () => {
             <Link to='/formation/bloc_3'>Voir plus →</Link>
           </div>
         </div>
-      </div>
-      <div className={styles.certificationContainer}>
-        <img src={certPath} alt="certification" />
       </div>
     </div>
   )
