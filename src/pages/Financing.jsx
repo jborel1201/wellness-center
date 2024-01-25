@@ -1,4 +1,4 @@
-import { cpfPath, poleEmploiPath, fafceaPath, fourxPath, qualiopiPath } from '#images'
+import { cpfPath, poleEmploiPath, fafceaPath, fourxPath, qualiopiAFPath } from '#images'
 
 import styles from './Financing.module.scss'
 
@@ -58,7 +58,7 @@ const Financing = () => {
         </div>
       </section>
       <footer>
-        <img src={qualiopiPath} alt="footer-logo" />
+        <img src={qualiopiAFPath} alt="footer-logo" />
       </footer>
     </div>
   )
