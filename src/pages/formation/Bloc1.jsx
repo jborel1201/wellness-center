@@ -20,6 +20,9 @@ const Bloc1 = () => {
           <p>Date d'enregistrement : 01-01-2020</p>
           <p>Certificateur : Ministère de l’éducation nationale et de la jeunesse</p>
           <p className={styles.italic}>Le CAP Esthétique n'est pas accessible en validation partielle par bloc de compétences</p>
+          <br />
+          <br />
+          <p>Date de dernière mise à jour: <span className={styles.bold}>25/01/2024</span></p>
         </div>
         <div className={styles.content}>
           <FormationItemTitle title='Objectif de la formation' />
