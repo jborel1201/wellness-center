@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import FormationItemTitle from '#components/FormationItemTitle'
+import BlocHead from '#components/BlocHead.jsx'
 
 import styles from './Formation.module.scss'
 
@@ -14,16 +15,7 @@ const Bloc2 = () => {
           <h2>FORMATION</h2>
           <h3>Bloc 2 du CAP esthétique</h3>
         </header>
-        <div className={styles.legals}>
-          <p>Titre RNCP 31041 – CAP Esthétique, Cosmétique, Parfumerie</p>
-          <p>Date échéance de l’enregistrement 01-01-2025</p>
-          <p>Date d'enregistrement : 01-01-2020</p>
-          <p>Certificateur : Ministère de l’éducation nationale et de la jeunesse</p>
-          <p className={styles.italic}>Le CAP Esthétique n'est pas accessible en validation partielle par bloc de compétences</p>
-          <br />
-          <br />
-          <p>Date de dernière mise à jour: <span className={styles.bold}>25/01/2024</span></p>
-        </div>
+        <BlocHead /> 
         <div className={styles.content}>
           <FormationItemTitle title='Objectif de la formation' />
           <div className={styles.formationItemContent}>
@@ -77,11 +69,11 @@ const Bloc2 = () => {
             </ul>
           </div>
           <FormationItemTitle title='Lieu de la formation' />
-          <div className={styles.formationItemContent}>Paris, Malakoff</div>
+          <div className={styles.formationItemContent}>Bagnolet / Malakoff</div>
           <FormationItemTitle title='Date' />
           <div className={styles.formationItemContent}>A définir avec l’apprenant</div>
           <FormationItemTitle title='Durée' />
-          <div className={styles.formationItemContent}>28 heures</div>
+          <div className={styles.formationItemContent}>35 heures</div>
           <FormationItemTitle title='Contenu de la formation' />
           <div className={styles.formationItemContent}>
             <h2>Structure de la Formation</h2>
@@ -142,6 +134,7 @@ const Bloc2 = () => {
             <ul>
               <li>Test de positionnement avant et après la formation</li>
               <li>Remise d’une attestation de fin de formation</li>
+              <li>Le bloc sera considéré comme acquis lorsque le taux de réussite atteindra 50% de bonnes réponses ou une note comprise entre 5 et 10/10</li>
             </ul>
           </div>
           <FormationItemTitle title='Handicap' />
@@ -162,10 +155,6 @@ const Bloc2 = () => {
               <li>Bac Professionnel en esthétique</li>
               <li>BTS esthétique</li>
             </ul>
-          </div>
-          <FormationItemTitle title='Prix' />
-          <div className={styles.formationItemContent}>
-            <p className={styles.bold}>990€</p>
           </div>
         </div>
       </div>

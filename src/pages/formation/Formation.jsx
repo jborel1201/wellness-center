@@ -28,7 +28,16 @@ const Formation = () => {
             <div className={styles.cardContent}>
               <p>Nombre d'apprenants : <span>106</span></p>
               <p>Taux d'assiduité : <span>100%</span></p>
-              <p>Taux de réussite : <span>80%</span></p>
+              <p>Taux de réussite : <span>89%</span></p>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <h4>Résultats 2024</h4>
+            <div className={styles.cardContent}>
+              <p>Nombre d'apprenants : <span>169</span></p>
+              <p>Taux d'assiduité : <span>100%</span></p>
+              <p>Taux de réussite : <span>92%</span></p>
+              <p>Taux de satisfaction : <span>100%</span></p>
             </div>
           </div>
         </div>
@@ -64,6 +73,47 @@ const Formation = () => {
           </ul>
           <h3>Que faire après un CAP esthétique, Cosmétique et parfumerie :</h3>
           <p>Le CAP Esthétique Cosmétique Parfumerie constitue le diplôme d’Etat, le premier niveau de qualification pour faire carrière en esthétique, cosmétique, parfumerie. Vous n’êtes pas encore titulaire du CAP Esthétique, lisez notre article sur comment l’obtenir sans stresser ? Pour continuer à évoluer dans un secteur qui ne cesse d’innover, il est conseillé de continuer à en apprendre toujours sur de nouvelles techniques, améliorer sa pratique, sa maitrise des soins corporels et du visage. Pour cela, après le CAP Esthétique, il est recommandé de poursuivre votre apprentissage en suivant un Brevet professionnel en Esthétique, un Bac Professionnel en Esthétique, Cosmétique, Parfumerie et le BTS Esthétique.</p>
+          <h3>Inscription</h3>
+          <p>L'inscription se fait en octobre - novembre. Vous devez déterminer votre académie en fonction de votre adresse postale et faire la préinscription.</p>
+          <p>Vous trouverez les démarches sur ce site : <a href='https://siec.education.fr/candidats/examens/CAP/tout-savoir-sur-le-cap/cap-tout-savoir-sur-la-session' target="_blank" rel='noreferrer'> 👉 Inscription candidat libre</a></p>
+          <p>Vous trouverez ci joint le référentiel du CAP esthétique, Cosmétique et parfumerie :  <a href='https://www.education.gouv.fr/bo/15/Hebdo20/MENE1508311A.htm ' target="_blank" rel='noreferrer'> 👉 Référentiel</a></p>
+
+          <h3>Statistiques</h3>
+          <h4>Statistiques en voie pro scolaire :</h4>
+          <p>6 apprenants sortants sur 10 sont en emploi salarié 6 mois après leur sortie de formation.</p>
+          <p><strong>42%</strong> poursuivent leurs études après la formation.</p>
+
+          <h4>Statistiques en apprentissage :</h4>
+          <p>5 apprenants sortants sur 10 sont en emploi salarié 6 mois après leur sortie de formation.</p>
+          <p><strong>50%</strong> poursuivent leurs études après la formation.</p>
+
+          <h4>Quelle rémunération un an après leur formation ?</h4>
+          <p><strong>50%</strong> gagnent entre 1350€ et 1630€.</p>
+
+          <h4>Part des contrats interrompus avant leur terme :</h4>
+          <p><strong>51%</strong></p>
+
+          <p>Statistiques pour les années scolaires 2021-2022 et 2022-2023 cumulées.</p>
+          <p>Champ : apprenants du CAP au BTS. InserJeunes mesure l’emploi salarié public et privé en France.</p>
+
+          <h4>Que deviennent les apprenants après cette formation ?</h4>
+          <h5>Pour la voie scolaire</h5>
+          <ul>
+            <li><strong>14 %</strong> sont en emploi 6 mois après la fin de la formation (tout type d'emploi salarié).</li>
+            <li><strong>63 %</strong> sont inscrits en formation (formation supérieure, redoublants, changement de filière).</li>
+            <li><strong>23 %</strong> sont dans d'autres cas (recherche d'emploi, à l'étranger, indépendant, etc.).</li>
+          </ul>
+
+          <h5>Pour l'apprentissage</h5>
+          <ul>
+            <li><strong>27 %</strong> sont en emploi 6 mois après la fin de la formation (tout type d'emploi salarié).</li>
+            <li><strong>49 %</strong> sont inscrits en formation (formation supérieure, redoublants, changement de filière).</li>
+            <li><strong>24 %</strong> sont dans d'autres cas (recherche d'emploi, à l'étranger, indépendant, etc.).</li>
+          </ul>
+
+          <h4>Taux d'obtention :</h4>
+          <p>Hors candidat libre (Scolaires, Apprentissage et Formation Continue) taux de réussite à 88% en moyenne contre 72% en individuel et à distance.</p>
+          <p className={styles.statInformations}>* données issues de <a href='https://www.inserjeunes.education.gouv.fr/diffusion/accueil' target='_blank' rel="noopener">inserjeunes</a></p>
         </div>
       </div>
       <div className={styles.jobContainer}>
