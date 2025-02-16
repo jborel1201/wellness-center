@@ -45,7 +45,7 @@ const Financing = () => {
       </section>
       <section className={styles.sectionFinancing}>
         <h3>Les différents modes de financements</h3>
-        <p>Le délai d'accès à la formation inclut un droit de rétractation accordé à l'apprenant, conformément à la réglementation en vigueur.</p>
+        <p>Le délai d'accès à la formation inclut un droit de rétractation de 14 jours accordé à l'apprenant, conformément à la réglementation en vigueur.</p>
         <div className={styles.financingContent}>
           {CHOICES.map(choice => (
             <div className={styles.card} key={choice.id} style={{ backgroundColor: choice.color }}>

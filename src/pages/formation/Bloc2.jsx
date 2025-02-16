@@ -69,7 +69,7 @@ const Bloc2 = () => {
             </ul>
           </div>
           <FormationItemTitle title='Lieu de la formation' />
-          <div className={styles.formationItemContent}>Bagnolet / Malakoff</div>
+          <div className={styles.formationItemContent}>Malakoff</div>
           <FormationItemTitle title='Date' />
           <div className={styles.formationItemContent}>A définir avec l’apprenant</div>
           <FormationItemTitle title='Durée' />
