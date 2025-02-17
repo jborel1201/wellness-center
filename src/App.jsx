@@ -6,6 +6,8 @@ import Financing from "#pages/Financing";
 import LegalNotice from "#pages/regulatory/LegalNotice";
 import TermsOfSales from "#pages/regulatory/TermsOfSales";
 import PrivacyPolicy from "#pages/regulatory/PrivacyPolicy";
+import InternalReg from "#pages/regulatory/InternalReg";
+import CGV from "#pages/regulatory/CGV";
 import Cookies from "#pages/regulatory/Cookies";
 import Contact from "#pages/regulatory/Contact";
 import OurValues from "#pages/OurValues";
@@ -39,6 +41,8 @@ function App() {
           <Route path="/politique-en-matiere-de-cookies" element={<Cookies />} />
           <Route path="/politique-de-confidentialite" element={<PrivacyPolicy />} />
           <Route path="/conditions-d-utilisation" element={<TermsOfSales />} />
+          <Route path="/reglement-interieur" element={<InternalReg />} />
+          <Route path="/cgv" element={<CGV />} />
           <Route path="/nos-valeurs" element={<OurValues isDesktop={isDesktop} />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/plus" element={<Plus />} />
