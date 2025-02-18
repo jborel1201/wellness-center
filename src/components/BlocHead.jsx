@@ -11,6 +11,7 @@ const BlocHead = () => {
       <br />
       <br />
       <p>Date de dernière mise à jour: <span className={styles.bold}>03/06/2024</span></p>
+      <p>Version: <span className={styles.bold}>2</span></p>
     </div>
   );
 }

@@ -139,9 +139,7 @@ const Bloc2 = () => {
           </div>
           <FormationItemTitle title='Handicap' />
           <div className={styles.formationItemContent}>
-            Bâtiment conforme aux normes d’accessibilité aux personnes en mobilité réduite. Un
-            questionnaire sera envoyé à l’apprenant afin d’établir avec lui les différentes actions à mener
-            pour favoriser son apprentissage.
+            Bâtiment conforme, nous contacter.
           </div>
           <FormationItemTitle title='Les points forts' />
           <div className={styles.formationItemContent}>
@@ -155,6 +153,14 @@ const Bloc2 = () => {
               <li>Bac Professionnel en esthétique</li>
               <li>BTS esthétique</li>
             </ul>
+          </div>
+          <FormationItemTitle title='Tarif' />
+          <div className={styles.formationItemContent}>
+            Nous contacter
+          </div>
+          <FormationItemTitle title="Modalité et délai d'accès" />
+          <div className={styles.formationItemContent}>
+            14 jours après après l'inscription à la formation
           </div>
         </div>
       </div>
