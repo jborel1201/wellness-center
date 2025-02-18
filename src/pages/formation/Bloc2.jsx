@@ -158,9 +158,9 @@ const Bloc2 = () => {
           <div className={styles.formationItemContent}>
             Nous contacter
           </div>
-          <FormationItemTitle title="Modalité et délai d'accès" />
+          <FormationItemTitle title="Modalités et délais d'accès" />
           <div className={styles.formationItemContent}>
-            14 jours après après l'inscription à la formation
+            14 jours après après l'inscription par téléphone à la formation
           </div>
           <FormationItemTitle title="Nous Contacter" />
           <div className={styles.formationItemContent}>
