@@ -137,13 +137,23 @@ const Bloc3 = () => {
           </ul>
         </div>
         <FormationItemTitle title='Tarif' />
-          <div className={styles.formationItemContent}>
-            Nous contacter
-          </div>
-          <FormationItemTitle title="Modalité et délai d'accès" />
-          <div className={styles.formationItemContent}>
-            14 jours après après l'inscription à la formation
-          </div>
+        <div className={styles.formationItemContent}>
+          Nous contacter
+        </div>
+        <FormationItemTitle title="Modalité et délai d'accès" />
+        <div className={styles.formationItemContent}>
+          14 jours après après l'inscription à la formation
+        </div>
+        <FormationItemTitle title="Nous Contacter" />
+        <div className={styles.formationItemContent}>
+          <h4>WELLNESS CENTER ACADEMY</h4>
+          <p>43 Rue Pierre Valette<br />
+            92 240 Malakoff</p>
+          <p>Vous pouvez nous contacter par télephone au 06 73 33 42 93:</p>
+          <p className={styles.marginLeft}>- Du lundi au vendredi, de 9h à 18h<br />
+            - Samedi, de 9h à 12h</p>
+          <p>Ou par mail à l'addresse: secretariat.wellnessformation@gmail.com</p>
+        </div>
       </div>
     </div>
   )
